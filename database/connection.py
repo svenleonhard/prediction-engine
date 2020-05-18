@@ -10,7 +10,7 @@ class Connection:
             self.user = credentials['user']
             self.password = credentials['password']
             self.host = credentials['host']
-            self.database = credentials[schema]
+            self.database = schema
             self.default_port = 3306
 
     def connection_string(self):

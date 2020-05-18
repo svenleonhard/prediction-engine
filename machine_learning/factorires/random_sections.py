@@ -18,9 +18,9 @@ class RandomSections(object):
                 # self.weather_repository.find_weather_by_stop_id(stop.stop_id)
                 random_sections.append(model(stop, trip[target]))
             except TypeError as e:
-                logger.error(e)
+                logger.warning(e)
             except AttributeError as e:
-                logger.error(e)
+                logger.warning(e)
             except Exception as e:
                 logger.error(e)
         return random_sections

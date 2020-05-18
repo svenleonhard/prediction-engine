@@ -47,15 +47,23 @@ Das Projekt ist dafür gedacht verschiedene Prognosealgorithmen zu analysieren. 
 5. Starte das Skript vom Wurzelverzeichnis > `python prediction/run_general_knn.py`   
 6. Die Analyse des Algorithmus läuft. Ist sie beendet, wird ein Bericht auf der Konsole gedruckt.
 
+###Prognosealgorithmen
+- k-Nearest-Neighbour Regression > `python prediction/run_general_knn_regression.py`
+- k-Nearest-Neighbour Klassifikation> `python prediction/run_general_knn_class.py`
+- k-Nearest-Neighbour Eigenentwicklung > `python prediction/rrun_cutsom_knn.py`
+- Support Vector Regression > `python prediction/run_svr_regression.py`
+- Support Vector Machine (Klassifikation) > `python prediction/run_svm_classification.py`
+- Neuonales Netz > `python prediction/run_neural_network.py`
+- Kombnierte Ansätze > `python prediction/run_combined.py`
+
 ### ML_Service API
 
 Neben der Nutzung eines Skripts besteht die Möglichkeit die ML_Service API zu nutzten. Diese stellt für jeden Prognosealgorithmus einen Methodenaufruf zur Verfügung. Das folgende Beispiel zeigt den Aufruf für den k-Nächsten-Nachbar und der Linien-ID 18 (Linie 1 von Durlach nach Oberreut):
 
 ```python
 from machine_learning.services.ml_service import MLService
-MLService().general_knn(line_id=18)
+MLService().general_knn_regression(line_id=LINE, line_id_official=LINE_OFFICIAL)
 ```
-## Implementierte Prognosealgorithmen
 
 - k-Nearest-Neighbour Regression > `MLService().general_knn_regression(line_id, line_id_official)`
 - k-Nearest-Neighbour Klassifikation> `MLService().general_knn_class(line_id, line_id_official)`

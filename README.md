@@ -19,7 +19,6 @@ Detailierte Informatioen zu den Prognosealgorithmen finden sich in der Studienar
 
 ## Vorraussetzungen
 1. Python 3.8.1 oder höher
-2. Optional: Docker 2.2.0.4 oder höher
 
 ## Installation
 Vor der ersten Prognose muss eine Datenbank mit der Datengrundlage entsprechend der folgenden Anleitung bereitgestellt werden. Anschließend müssen die Abhängigkeiten aus der `requirements.txt` Datei installiert werden.

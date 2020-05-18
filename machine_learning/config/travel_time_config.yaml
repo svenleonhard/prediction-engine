@@ -1,0 +1,9 @@
+neural_network:
+  epochs: 4000
+  lr: 0.0125
+  n_hidden_1: 4
+  n_hidden_2: 4
+  n_output: 1
+k_nearest_neighbour:
+  n_neighbors: 5
+  weights: 'distance'

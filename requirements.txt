@@ -1,0 +1,6 @@
+imagio
+matplotlib
+pandas
+sklearn
+sqlalchemy
+torch

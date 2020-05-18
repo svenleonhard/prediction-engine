@@ -103,15 +103,6 @@ venv.bak/
 # mypy
 .mypy_cache/
 
-# credentials
-kvv_processor/database/credentials.yaml
-
 # IDE
 .vscode
 scalerfiel.sav
-
-#datasets
-/datasets/*.csv
-
-/database/credentials.yaml
-database/credentials.yaml

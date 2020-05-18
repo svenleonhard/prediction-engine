@@ -47,7 +47,7 @@ Das Projekt ist dafür gedacht verschiedene Prognosealgorithmen zu analysieren. 
 5. Starte das Skript vom Wurzelverzeichnis > `python prediction/run_general_knn.py`   
 6. Die Analyse des Algorithmus läuft. Ist sie beendet, wird ein Bericht auf der Konsole gedruckt.
 
-###Prognosealgorithmen
+### Prognosealgorithmen
 - k-Nearest-Neighbour Regression > `python prediction/run_general_knn_regression.py`
 - k-Nearest-Neighbour Klassifikation> `python prediction/run_general_knn_class.py`
 - k-Nearest-Neighbour Eigenentwicklung > `python prediction/rrun_cutsom_knn.py`
